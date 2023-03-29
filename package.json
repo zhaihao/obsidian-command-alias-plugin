@@ -5,7 +5,8 @@
   "main": "main.js",
   "scripts": {
     "dev": "node esbuild.config.mjs",
-    "build": "tsc --noEmit --skipLibCheck && node esbuild.config.mjs production",
+    "mkdir": "mkdir -p '/Users/zhaihao/Documents/ORISON/.obsidian/plugins/obsidian-command-alias-plugin'",
+    "build": "tsc --noEmit --skipLibCheck && node esbuild.config.mjs production && cp main.js manifest.json '/Users/zhaihao/Documents/ORISON/.obsidian/plugins/obsidian-command-alias-plugin'",
     "test": "jest"
   },
   "keywords": [],

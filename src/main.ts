@@ -82,7 +82,8 @@ export default class CommandAliasPlugin extends Plugin {
         const commandDetection = detection().then((target: Command) => {
             const command: Command = {
                 id: `alias:${aliasId}`,
-                name: `${alias.name}: ${target.name}`,
+                // name: `${alias.name}: ${target.name}`,
+                name: `${alias.name}`,
             };
             if (target.callback) {
                 command.callback = () => {

@@ -1,5 +1,9 @@
 ## Obsidian Command Alias Plugin
 
+```bash
+git remote add upstream git@github.com:yajamon/obsidian-command-alias-plugin.git
+```
+
 This plugin is provide alias for other command.
 The translated words help you understand the intent of the command, but they are tedious to type.
 
